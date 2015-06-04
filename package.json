@@ -1,0 +1,22 @@
+{
+  "name": "gulp-combine-languagefiles",
+  "version": "0.0.1",
+  "description": "Gulp plugin to combine several (nested) JSON language files",
+  "author": {
+    "name": "SC5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SC5/gulp-combine-languagefiles.git"
+  },
+  "dependencies": {
+    "through": "*",
+    "gulp-util": "~2.2.0",
+    "lodash" : "*"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
