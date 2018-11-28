@@ -48,7 +48,7 @@ module.exports = function (fileName, options) {
     }
 
     /* Gather all languages in the project */
-    if(!_.contains(LANGS, lang)) {
+    if(!_.includes(LANGS, lang)) {
       LANGS.push(lang);
     }
 
